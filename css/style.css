@@ -1,0 +1,161 @@
+body {
+	font-family:Helvetica,Arial;
+}
+
+.strong {
+	font-weight: bold;
+	color: yellow;
+}
+
+#container {
+	width:100%;
+	height:100%;
+}
+
+#debug2 {
+	z-index: 9999;
+	position: fixed;
+	top:0; right:0;
+}
+
+#cirCal {
+	position: fixed;
+	top:50%; left:50%;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 10px; 
+}	
+
+#space {
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	margin:0;
+	overflow:hidden;
+	z-index:999;
+}
+
+#bg {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:hsl(144,100%,150%);
+	z-index: -9999;
+	-webkit-touch-callout:none;
+}
+
+#startUp {
+	background-color:#494949;
+	width:300px;
+	height:400px;
+	padding:30px;
+	position:absolute;
+	left:50%;
+	top:40%;
+	margin-left:-175px;
+	margin-top:-175px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	z-index:999;
+	opacity:.9;
+}
+
+#gameArea {
+	width:100%;
+	height:100%;
+}
+
+#gameCanvas {
+	display:none;
+	width:100%;
+	height:99.5%;
+}
+
+#paintTime {
+	display:none;
+	position:absolute;
+	top: 10%;
+	left:25%;
+	width:100%;
+	-webkit-touch-callout:none;
+}
+
+#gyroData {
+	position:fixed;
+	left:40%;
+	top:40%;
+	z-index:2000;
+	padding:15px;
+	font-size:1em;
+	width:20%;
+	color:#000;
+	background-color:#fff;
+	line-height:1em;
+}
+
+#instruction {
+	margin-top:1em;
+	font-size:2.1em;
+	text-align:center;
+	font-weight:700;
+	color:#fff;
+	line-height:1.5em;
+}
+
+#beACanvas {
+	display:none;
+	margin-top:1em;
+	font-size:2.1em;
+	text-align:center;
+	font-weight:700;
+	color:#fff;
+	line-height:1.5em;
+}
+
+#aboutPP {
+	display:none;
+	margin-top:2em;
+	font-size:1.2em;
+	text-align:left;
+	font-weight:700;
+	color:#fff;
+	line-height:1.5em;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.center {
+	margin:0 auto;
+	text-align:center;
+}
+
+#footer {
+	position:absolute;
+	bottom:20px;
+}
+
+#html5logo {
+	position:absolute;
+	right:-170px;
+	bottom:0;
+}
+
+#about {
+	float:left;
+}
+
+#debugger {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	overflow:hidden;
+	word-wrap:break-word;
+}
